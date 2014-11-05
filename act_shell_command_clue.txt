@@ -1,0 +1,154 @@
+man
+
+FILES
+cd
+ls
+    -l
+    -lh
+    -lah
+cp
+mv
+rm
+    -r
+    -f
+cat
+head
+    -n
+tail
+    -n
+    -f
+grep
+    -c
+    -n
+    -r
+    -i
+    -m
+    --exclude
+    --exclude-dir
+awk
+    -F
+sed
+cut
+    -d
+    -f
+find
+    -name
+    -iregex
+    -type
+jq
+sort
+    -n
+    -r
+uniq
+    -c
+tr
+wc
+    -l
+tac
+
+PIPES
+|
+>
+>>
+2>
+2>&1
+    something 2>&1 > /dev/null
+tee
+mkfifo
+
+SYSTEM
+ps
+    aux
+    -ef
+top
+    zxc
+df
+    -h
+du
+    -c
+    -s
+    -h
+uptime
+pwd
+which
+whereis
+file
+type
+fstat
+export
+
+MISC
+watch
+history
+echo
+;
+&&
+||
+&
+disown
+fg
+bg
+!$
+!!
+
+SCRIPTING
+test [[ ]]
+    MATH
+        -eq
+        -ne
+        -lt
+        -le
+        -gt
+        -ge
+    STRINGS
+        =
+        !=
+        string
+            not null and not defined
+        -n string
+            not null and does exist
+        -z string
+            is null and does exist
+    FILES
+        -s file
+            non empty file
+        -f file
+            normal file, not directory
+        -d dir
+            directory, not file
+        -w file
+            writeable file
+        -r file
+            readable file
+        -x
+            executable file
+    LOGICAL
+        ! expression
+            NOT
+        exp1 -a exp2
+            AND
+        exp1 -o exp2
+            OR
+(())
+$() ``
+$?
+$1
+$*
+if
+for
+while
+
+TIPS
+vi
+    :q
+    :!q
+    :wq
+    :x
+    :set mouse=a
+    :set nu
+    
+crontab
+    -l
+    -e
+
+    
